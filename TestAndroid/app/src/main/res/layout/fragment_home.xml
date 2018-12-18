@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageBackground"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"/>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/iconMenu"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="@dimen/fab_margin"
+                android:layout_below="@id/divider"
+                android:src="@drawable/contoh"/>
+
+            <TextView
+                android:id="@+id/menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider"
+                android:layout_alignParentRight="true"
+                android:text="Menu"
+                android:textSize="17sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:textStyle="normal"
+                android:textColor="@color/black"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="@drawable/bg_menu"/>
+
+            <TextView
+                android:id="@+id/salam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_below="@id/iconMenu"
+                android:text="How's your day ferguso?, Need a coffe break?"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_below="@id/salam"
+                android:text="Ferguso Fernandes"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_below="@id/username"
+                android:text="IDR 279000"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/beans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_below="@id/balance"
+                android:text="1 Beans"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:textColor="@color/white"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/bottomSheetInformasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/whiteTransparentBottom"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+            <!--android:behavior_peekHeight="200dp"-->
+            <!--android:behavior_hideable="false"-->
+
+            <!--android:layout_behavior="@string/bottom_sheet_behavior">-->
+
+            <TextView
+                android:id="@+id/primeToPay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/primeToPay"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/showToTheCashier"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"
+                android:textColor="@color/gray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kartuSatu"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="normal"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/balance"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:layout_marginLeft="-5dp"
+                    android:textColor="@color/green_signup"/>
+
+                <TextView
+                    android:id="@+id/balanceBottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="179000"
+                    android:padding="5dp"
+                    android:layout_marginRight="60dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/beans"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/balanceBottom"
+                    android:padding="5dp"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_marginTop="-5dp"
+                    android:textColor="@color/green_signup"/>
+
+                <TextView
+                    android:id="@+id/beansBottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/balanceBottom"
+                    android:text="1"
+                    android:padding="5dp"
+                    android:layout_marginTop="-5dp"
+                    android:layout_marginRight="60dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/qrCode"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"/>
+        </LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</LinearLayout>

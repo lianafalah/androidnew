@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login"
+    tools:context=".activity.SignUpActivity">
+    <include layout="@layout/toolbar_home"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Adress"
+            android:textColor="#fff"
+            android:layout_marginBottom="5dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/Transparents"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="#fff"
+            android:layout_marginBottom="5dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/Transparents"
+            android:layout_marginBottom="20dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Sign In"
+            android:textColor="#fff"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginBottom="20dp"
+            />
+    </LinearLayout>
+</LinearLayout>

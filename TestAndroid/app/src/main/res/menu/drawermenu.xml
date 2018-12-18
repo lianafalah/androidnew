@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item_bar"
+        android:title="List Menu"
+        android:icon="@drawable/item">
+
+    </item>
+    <item android:id="@+id/search_bar"
+        android:title="Search"
+        android:icon="@drawable/search">
+
+    </item>
+    <item android:id="@+id/delete_bar"
+        android:title="Delete"
+        android:icon="@drawable/delete">
+
+    </item>
+    <item android:id="@+id/navigation_bar"
+        android:title="Navigation"
+        android:icon="@drawable/logo">
+
+    </item>
+
+
+
+</menu>

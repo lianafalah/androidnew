@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TestAndroid</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_home_app">HomeAppActivity</string>
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="goodMorning">Good Morning</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="email">Email address</string>
+    <string name="password">Password</string>
+    <string name="notRegistered">Not registered yet? Sign up here</string>
+    <string name="forgotPassword">Forgot Password?</string>
+    <string name="primeToPay">Prime to Pay</string>
+    <string name="showToTheCashier">Show below QR Code to the cashier</string>
+    <string name="kartuSatu">Kartu Satu</string>
+    <string name="balance">Balance</string>
+    <string name="beans">Beans</string>
+    <string name="menu">Menu</string>
+    <string name="nonCoffe">Non Coffe</string>
+    <string name="coffe">Coffe</string>
+    <string name="frappeCream">Frappe Blended Cream</string>
+    <string name="tea">Tea</string>
+    <string name="frappeJuice">Frappe Blended Juice</string>
+    <string name="frappeCoffe">Frappe Blended Coffee</string>
+</resources>

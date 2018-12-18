@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#088675</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Transparent">#00000000</color>
+    <color name="Transparents">#9dffffff</color>
+    <color name="Transparent80">#80000000</color>
+    <color name="semiwhite">#f2f1f1</color>
+    <color name="white">#ffffff</color>
+    <color name="darkGray">#6c6c6c</color>
+    <color name="abu">#d6d4d4</color>
+    <color name="black">#000</color>
+    <color name="gray">#818181</color>
+    <color name="whiteTransparentBottom">#afffffff</color>
+    <color name="default_bg_white">#FAFAFA</color>
+    <color name="green_signup">#409b2f</color>
+    <color name="card_color">#d2d2d2</color>
+</resources>
